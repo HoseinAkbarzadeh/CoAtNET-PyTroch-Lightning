@@ -1,0 +1,17 @@
+[MODEL]
+name="CoAtNET2"
+image_size=224
+num_channels=3
+num_classes=1000
+lengths=[2, 6, 14, 2]
+depths=[128, 128, 256, 512, 1024]
+sizes=[0.25, 0.125, 0.0625, 0.03125]
+blocks="CCTT"
+mbconv_e=4
+mbconv_se=0.25
+head_dim=32
+mem_eff=true
+tfmrel_e=4
+qkv_bias=false
+fc_e=2
+stochastic_rate=0.2

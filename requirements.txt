@@ -1,0 +1,5 @@
+toml
+timm
+tensorboard
+lightning
+rich
